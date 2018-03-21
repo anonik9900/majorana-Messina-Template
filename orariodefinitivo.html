@@ -1,0 +1,93 @@
+<!-- Creato da Nicholas Impieri -->
+
+<html>
+<head>
+
+<title>Orario Definitivo</title>
+
+</head>
+
+<body>
+
+
+<script language=JavaScript type="text/javascript">
+<!--
+
+//Disable right mouse click Script
+
+var message="Funzione Disabilitata!";
+
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+// --> 
+</script>
+
+
+
+<h1>Orario Definitivo </h1>
+<br>
+
+<h2><a href="index.html">Torna Alla Home</a></h2>
+<br>
+
+<h2>Classi</h2><br>
+<ul>
+<li><a href="orari\orario2c.html">2C</li></li>
+<li><a href="orari\orario3c.html">3C</li></li>
+<li><a href="orari\orario4cch.html">4C CH</li></a>
+<li><a href="orari\orario4cel.html">4C EL</li></a>
+<li><a href="orari\orario4c.html">4C</li></a>
+<li><a href="orari\orario5cch.html">5C CH</li></a>
+<li><a href="orari\orario5cel.html">5C EL</li></a>
+<li><a href="orari\orario1k.html">1k</li></a>
+<li><a href="orari\orario1l.html">1L</li></a>
+<li><a href="orari\orario1m.html">1M</li></a>
+<li><a href="orari\orario2k.html">2K</li></a>
+<li><a href="orari\orario2l.html">2L</li></a>
+<li><a href="orari\orario3k.html">3K</li></a>
+<li><a href="orari\orario3l.html">3L</li></a>
+<li><a href="orari\orario4k.html">4K</li></a>
+<li><a href="orari\orario4l.html">4L</li></a>
+<li><a href="orari\orario5k.html">5K</li></a>
+<li><a href="orari\orario5l.html">5L</li></a>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
