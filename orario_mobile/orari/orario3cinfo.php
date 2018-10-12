@@ -20,11 +20,11 @@ A.nodecWhite:hover {text-decoration:none;}
 .mathema:hover {text-decoration:none;}
 </style></head>
 
-<?php
-include("../frame/mobile-scale.php");
- ?>
+
 
  <body>
+
+   <?php include("../frame/mobile-scale.php"); ?>
 
 <center>
 <p class="mathema">
